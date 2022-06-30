@@ -1,3 +1,7 @@
+:root {
+  --color-red: rgb(255, 0, 0);
+}
+
 .container-inner {
   width: 1400px;
 }
@@ -20,7 +24,7 @@
   color: white;
 }
 .c-red {
-  color: red;
+  color: var(--color-red);
 }
 .b-light-gray {
   background: rgb(222, 222, 222);
@@ -80,7 +84,7 @@
 .border-non {
   border: none;
 }
-.p-top-bottom {
+.p-top-bottom-20px {
   padding: 20px 0;
 }
 .w-25pr {
@@ -104,5 +108,143 @@
   .futer {
     justify-content: space-evenly;
     width: 40%;
+  }
+}
+.w-400px {
+  width: 400px;
+}
+.h-630px {
+  height: 630px;
+}
+
+.h-1050px {
+  height: 1050px;
+}
+.b-white-gray {
+  background: rgb(203, 203, 203);
+}
+.br-50pr {
+  border-radius: 50%;
+}
+.h-120px {
+  height: 120px;
+}
+.w-120px {
+  width: 120px;
+}
+.ta-center {
+  text-align: center;
+}
+.p-absolute {
+  position: absolute;
+}
+.b-white {
+  background: white;
+}
+.position-left-65pr {
+  left: 65%;
+}
+.position-top-50px {
+  top: 50px;
+}
+.p-relative {
+  position: relative;
+}
+.h-0 {
+  height: 0;
+}
+.b-red {
+  background: var(--color-red);
+}
+.h-12pr {
+  height: 12.5%;
+}
+.w-344px {
+  width: 344px;
+}
+.h-30px {
+  height: 30px;
+}
+.bordar-gray {
+  border: 1px solid rgb(171, 171, 171);
+}
+.p-left-right-25px {
+  padding: 0 25px;
+}
+.m-block-end-5px {
+  margin-block-end: 5px;
+}
+.m-block-0px {
+  margin-block: 0;
+}
+.h-45px {
+  height: 60px;
+}
+.m-block-start-8px {
+  margin-block-start: 8px;
+}
+.w-150px {
+  width: 150px;
+}
+.m-top-bottom-20px {
+  margin: 20px 0;
+}
+.m-bottom-20px {
+  margin-bottom: 20px;
+}
+.fs-italic {
+  font-style: italic;
+}
+.fs-17px {
+  font-size: 17px;
+}
+@media (max-width: 1190px) {
+  .wrap-block-form {
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgb(203, 203, 203);
+  }
+  .block-form {
+    display: block;
+    position: static;
+    width: 800px;
+    height: 990px;
+    margin: 15px;
+  }
+  .input-text {
+    width: 600px;
+  }
+  .select-country {
+    width: 600px;
+  }
+  .textarea-text {
+    width: 600px;
+  }
+  .cerckle-wrap {
+    justify-content: center;
+  }
+}
+@media (max-width: 665px) {
+  .input-text {
+    width: 400px;
+  }
+  .select-country {
+    width: 400px;
+  }
+  .textarea-text {
+    width: 400px;
+  }
+}
+@media (max-width: 470px) {
+  .input-text {
+    width: 200px;
+  }
+  .select-country {
+    width: 200px;
+  }
+  .textarea-text {
+    width: 200px;
   }
 }
