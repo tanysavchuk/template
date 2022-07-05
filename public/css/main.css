@@ -252,3 +252,10 @@
   background-image: linear-gradient(rgba(71, 77, 107, 0.866), rgba(71, 77, 107, 0.866)),
     url(../img/backgraund.jpeg);
 }
+.bg-parallax {
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
