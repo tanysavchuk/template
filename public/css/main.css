@@ -3,7 +3,7 @@
 }
 
 * {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Sintony', sans-serif;
 }
 
 .container-inner {
@@ -262,4 +262,19 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.fs-15px {
+  font-size: 15px;
+}
+.fw400 {
+  font-weight: 400;
+}
+.fs-40px {
+  font-size: 40px;
+}
+.tt-uppercase {
+  text-transform: uppercase;
+}
+.fs-12px {
+  font-size: 12px;
 }
